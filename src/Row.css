@@ -1,0 +1,49 @@
+.row{
+    width: 95%;
+    margin-right: 1800px;
+    margin: 0 auto;
+    padding: 1% 0;
+}
+h2{
+    color: #fff;
+    margin-bottom: 30px;
+}
+.row_posters{
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+}
+.row_posters::-webkit-scrollbar{
+    display: none;
+}
+.row_poster{
+    object-fit: contain;
+    width: 100%;
+    max-height: 100px;
+    margin-right: 10px;
+    transition: transform 450ms;   
+}
+.row_poster:hover{
+    transform: scale(1.08)
+}
+.row_posterLarge{
+    max-height: 250px;
+}
+.row_posterLarge:hover{
+    transform: scale(1.09)   
+}
+.banner_fadebottom{
+    height: 70vh;
+    background: linear-gradient(
+        180deg,
+        transparent,
+        rgba(37,37,37,.61),
+        #111
+    );
+}
+@media all and (max-width : 640px){
+    h2{
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+}
