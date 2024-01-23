@@ -1,4 +1,4 @@
-# Soccer-Hub
+# Netflix clone
 - https://netflix-clone-f8e41.web.app/
 
 
